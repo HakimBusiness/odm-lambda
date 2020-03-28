@@ -1,4 +1,9 @@
- 
+provider "aws" {
+
+  region="us-west-2"
+  
+}
+
 
  resource "aws_lambda_function" "example" {
    function_name = "hello_world"
