@@ -1,4 +1,5 @@
 
+
  resource "aws_lambda_function" "example" {
    function_name = "hello_world"
 
