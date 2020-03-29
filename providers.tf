@@ -1,3 +1,3 @@
 provider "aws" {
-  region="${AWS_REGION}"
+  region="${TF_VAR_AWS_REGION}"
 }
